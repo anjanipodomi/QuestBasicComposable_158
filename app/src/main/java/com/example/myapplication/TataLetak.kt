@@ -46,4 +46,9 @@ fun TataLetakRow(modifier: Modifier) {
 }
 
 @Composable
-fun TataLetakBox(modifier: Modifier)
+fun TataLetakBox(modifier: Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxHeight()
+            .fillMaxWidth(), contentAlignment = Alignment.Center
+    )
